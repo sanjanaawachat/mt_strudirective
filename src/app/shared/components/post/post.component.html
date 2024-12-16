@@ -1,0 +1,20 @@
+<div class="container">
+<div class="row">
+  
+        <div class="col-md-4 p-2 mb-30 " *ngFor="let post of postarray">
+        <div class="card h-100" style="background-color: rgb(239, 236, 157);">
+            <div class="card-header">
+             <h3 class="m-0">{{post.title}}</h3>
+            </div>
+            <div class="card-body">
+                <p class="m-0">{{post.body}}</p>    
+            </div>
+
+            <div class="card-footer">
+               <button class="btn btn-sm btn-primary">Read more</button> 
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
